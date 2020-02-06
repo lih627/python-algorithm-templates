@@ -95,6 +95,7 @@ class LRU_Cache_v2():
 
             if self.size > self.capacity:
                 tail = self._pop_tail()
+                # Del node
                 del self.cache[tail.key]
                 self.size -= 1
 
@@ -104,3 +105,17 @@ class LRU_Cache_v2():
 
 
 if __name__ == '__main__':
+    for _ in (LRU_Cache_v1, LRU_Cache_v2):
+        cache = LRU_Cache_v2(2)
+        res = [
+            cache.put(1, 1),
+            cache.put(2, 2),
+            cache.get(1),
+            cache.put(3, 3),
+            cache.get(2),
+            cache.put(4, 4),
+            cache.get(1),
+            cache.get(3),
+            cache.get(4)
+        ]
+        print(res)
