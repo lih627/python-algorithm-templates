@@ -114,7 +114,7 @@ class TableInform:
                         complete_info.solved)
         readme.create_leetcode_readme([self.table, self.table_item])
         print('-------the complete inform-------')
-        print(complete_info.solved)
+        # print(complete_info.solved)
         print('the total complete num is: {}'.format(
             complete_info.complete_num))
 
