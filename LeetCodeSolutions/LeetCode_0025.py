@@ -29,3 +29,28 @@ class Solution:
                 p.next = stack.pop()
                 p = p.next
         return dummy.next
+
+    def reverseKGroup_(self, head: ListNode, k: int) -> ListNode:
+        # Space O(1)
+        if k == 1:
+            return head
+        dummy = ListNode(None)
+        dummy.next = head
+        pre = dummy
+        tail = dummy
+        while True:
+            cnt = k
+            while cnt and tail.next:
+                tail = tail.next
+                cnt -= 1
+            if cnt:
+                break
+            head = pre.next
+            while pre.next != tail:
+                cur = pre.next
+                pre.next = cur.next
+                cur.next = tail.next
+                tail.next = cur
+            tail = head
+            pre = tail
+        return dummy.next
