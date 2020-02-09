@@ -5,7 +5,11 @@ class Solution:
     def nextPermutation(self, nums: List[int]) -> None:
         """
         Do not return anything, modify nums in-place instead.
+        Wiki: Permutation
+        Generation in lexicographic order
+        按照字典顺序生成的下一个排列
         """
+
         n = len(nums)
         k = 0
 
