@@ -2,8 +2,9 @@
 ------
 
 TBD
--[ ] Add multi binary search algorithm for leetcode0034
-
+-[x] Add multi binary search algorithm for leetcode0034
+-[ ] Add Segment Tree for data structure
+-[ ] Add union-find algorithm(Disjoint Set Union) for data structure
 
 
 # LeetCode Solutions
