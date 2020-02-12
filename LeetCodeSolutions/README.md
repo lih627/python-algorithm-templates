@@ -1,5 +1,5 @@
 # LeetCode Solutions
-> Until 2020-02-10 21:10:25, solved **132** / **1240** problems while **208** are still locked.
+> Until 2020-02-12 20:11:45, solved **140** / **1240** problems while **208** are still locked.
 
 ----------------
 | ID | Title | Difficulty | Solutions|
@@ -206,7 +206,7 @@
 |0216|[Combination Sum III](https://leetcode.com/problems/combination-sum-iii/description/) |Medium|ToDo|
 |0217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0217.py)|
 |0218|[The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/description/) |Hard|ToDo|
-|0219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/) |Easy|ToDo|
+|0219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0219.py)|
 |0220|[Contains Duplicate III](https://leetcode.com/problems/contains-duplicate-iii/description/) |Medium|ToDo|
 |0221|[Maximal Square](https://leetcode.com/problems/maximal-square/description/) |Medium|ToDo|
 |0222|[Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/description/) |Medium|ToDo|
@@ -273,7 +273,7 @@
 |0284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/description/) |Medium|ToDo|
 |0285|[Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/description/) :lock:|Medium|ToDo|
 |0286|[Walls and Gates](https://leetcode.com/problems/walls-and-gates/description/) :lock:|Medium|ToDo|
-|0287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/) |Medium|ToDo|
+|0287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0287.py)|
 |0288|[Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation/description/) :lock:|Medium|ToDo|
 |0289|[Game of Life](https://leetcode.com/problems/game-of-life/description/) |Medium|ToDo|
 |0290|[Word Pattern](https://leetcode.com/problems/word-pattern/description/) |Easy|ToDo|
@@ -286,7 +286,7 @@
 |0297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) |Hard|ToDo|
 |0298|[Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/description/) :lock:|Medium|ToDo|
 |0299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/description/) |Easy|ToDo|
-|0300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/) |Medium|ToDo|
+|0300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0300.py)|
 |0301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/description/) |Hard|ToDo|
 |0302|[Smallest Rectangle Enclosing Black Pixels](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels/description/) :lock:|Hard|ToDo|
 |0303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/) |Easy|ToDo|
@@ -641,14 +641,14 @@
 |0714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/) |Medium|ToDo|
 |0715|[Range Module](https://leetcode.com/problems/range-module/description/) |Hard|ToDo|
 |0716|[Max Stack](https://leetcode.com/problems/max-stack/description/) :lock:|Easy|ToDo|
-|0717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/description/) |Easy|ToDo|
+|0717|[1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0717.py)|
 |0718|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/description/) |Medium|ToDo|
 |0719|[Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description/) |Hard|ToDo|
 |0720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/description/) |Easy|ToDo|
 |0721|[Accounts Merge](https://leetcode.com/problems/accounts-merge/description/) |Medium|ToDo|
 |0722|[Remove Comments](https://leetcode.com/problems/remove-comments/description/) |Medium|ToDo|
 |0723|[Candy Crush](https://leetcode.com/problems/candy-crush/description/) :lock:|Medium|ToDo|
-|0724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/) |Easy|ToDo|
+|0724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0724.py)|
 |0725|[Split Linked List in Parts](https://leetcode.com/problems/split-linked-list-in-parts/description/) |Medium|ToDo|
 |0726|[Number of Atoms](https://leetcode.com/problems/number-of-atoms/description/) |Hard|ToDo|
 |0727|[Minimum Window Subsequence](https://leetcode.com/problems/minimum-window-subsequence/description/) :lock:|Hard|ToDo|
@@ -657,13 +657,13 @@
 |0730|[Count Different Palindromic Subsequences](https://leetcode.com/problems/count-different-palindromic-subsequences/description/) |Hard|ToDo|
 |0731|[My Calendar II](https://leetcode.com/problems/my-calendar-ii/description/) |Medium|ToDo|
 |0732|[My Calendar III](https://leetcode.com/problems/my-calendar-iii/description/) |Hard|ToDo|
-|0733|[Flood Fill](https://leetcode.com/problems/flood-fill/description/) |Easy|ToDo|
+|0733|[Flood Fill](https://leetcode.com/problems/flood-fill/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0733.py)|
 |0734|[Sentence Similarity](https://leetcode.com/problems/sentence-similarity/description/) :lock:|Easy|ToDo|
 |0735|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/description/) |Medium|ToDo|
 |0736|[Parse Lisp Expression](https://leetcode.com/problems/parse-lisp-expression/description/) |Hard|ToDo|
 |0737|[Sentence Similarity II](https://leetcode.com/problems/sentence-similarity-ii/description/) :lock:|Medium|ToDo|
 |0738|[Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/description/) |Medium|ToDo|
-|0739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/) |Medium|ToDo|
+|0739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0739.py)|
 |0740|[Delete and Earn](https://leetcode.com/problems/delete-and-earn/description/) |Medium|ToDo|
 |0741|[Cherry Pickup](https://leetcode.com/problems/cherry-pickup/description/) |Hard|ToDo|
 |0709|[To Lower Case](https://leetcode.com/problems/to-lower-case/description/) |Easy|ToDo|
@@ -672,7 +672,7 @@
 |0744|[Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/) |Easy|ToDo|
 |0745|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/description/) |Hard|ToDo|
 |0746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/description/) |Easy|ToDo|
-|0747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/description/) |Easy|ToDo|
+|0747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0747.py)|
 |0748|[Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/description/) |Easy|ToDo|
 |0749|[Contain Virus](https://leetcode.com/problems/contain-virus/description/) |Hard|ToDo|
 |0750|[Number Of Corner Rectangles](https://leetcode.com/problems/number-of-corner-rectangles/description/) :lock:|Medium|ToDo|
