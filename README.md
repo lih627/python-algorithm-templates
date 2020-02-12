@@ -18,7 +18,7 @@ TBD
 ## Maths
 -----
 
-**Catalan Number**
+**Catalan Number**: O(n) solution use binomial coefficient
 
 ## Data Structures
 -----
