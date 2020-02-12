@@ -8,11 +8,12 @@ The basic version: catalan_base
 H(n) = sum (i = 1 to n H(i - 1) * H(n - i))
 
 
-
+The O(n) solution use binomial cofficient
           [2n]
           [ n]
 H(n) =  --------- n >= 2
           n + 1
+
 
           H(n - 1) * (4 * n - 2)
 H(n) = --------------------------
