@@ -10,7 +10,7 @@ def binary_search_base(nums: list, target: int) -> int:
         return -1
     left, right = 0, len(nums) - 1
     while left < right:
-        mid = (left + right) // 2
+        mid = left + (right - left) // 2
         if nums[mid] == target:
             return mid
         elif nums[mid] < target:
@@ -18,6 +18,35 @@ def binary_search_base(nums: list, target: int) -> int:
         elif nums[mid] > target:
             right = mid - 1
     return -1
+
+
+def lower_bound(nums: list, target: int) -> int:
+    '''
+    return the target lower bound index in nums
+    c++ algorithms
+    '''
+    first, last = 0, len(nums)
+    while first < last:
+        mid = first + (last - first) // 2
+        if nums[mid] < target:
+            first = mid + 1
+        else:
+            last = mid
+    return first
+
+
+def upper_bound(nums: list, target: int) -> int:
+    '''
+    return the first idx in nums when nums[idx] > target
+    '''
+    first, last = 0, len(nums)
+    while first < last:
+        mid = first + (last - first) // 2
+        if nums[mid] <= target:
+            first = mid + 1
+        else:
+            last = mid
+    return first
 
 
 def left_bound(nums: list, target: int) -> int:
@@ -76,3 +105,5 @@ if __name__ == '__main__':
     print(binary_search_base(nums, target))
     print(left_bound(nums, target))
     print(right_bound(nums, target))
+    print(lower_bound(nums, target))
+    print(upper_bound(nums, target))
