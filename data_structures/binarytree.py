@@ -99,6 +99,31 @@ def printTree(root):
     print(bfsTreeNode(root))
 
 
+def getDepth(root):
+    '''
+    get the max depth of root
+    '''
+    if not root:
+        return 0
+    return max(getDepth(root.left) + 1,
+               getDepth(root.right) + 1)
+
+
+def getDepthv2(root):
+    if not root:
+        return 0
+    from collections import deque
+    que = deque()
+    que.append((1, root))
+    while que:
+        cnt, node = que.popleft()
+        if node.left:
+            que.append((cnt + 1, node.left))
+        if node.right:
+            que.append((cnt + 1, node.right))
+    return cnt
+
+
 class Traversal():
     '''
     Traversal method for binary tree
