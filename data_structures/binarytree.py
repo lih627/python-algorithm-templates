@@ -38,49 +38,60 @@ def buildTreeFromPreInTraversal(preorder: List[int],
 def buildTreeFromList(elems: List[int]) -> TreeNode:
     """
     Build Tree From a  List
-    the List is BFS of the TreeNode
+    the List is Hierarchical traversal of the TreeNode
+      1
+     / \
+    #   2
+       / \
+      #  3
+         /\
+        4 #
+    elems: [1 # 2 # 3 4]
     """
-    root = TreeNode(elems.pop(0))
     from collections import deque
+    elems = deque(elems)
+    if not elems:
+        return None
+    root = TreeNode(elems.popleft())
     que = deque()
     que.append(root)
     while que and elems:
         node = que.popleft()
-        left = elems.pop(0)
-        right = elems.pop(0)
-        if node:
-            node.left = TreeNode(left) if left is not None else None
-            node.right = TreeNode(right) if right is not None else None
+        left = elems.popleft()
+        if left is not None:
+            node.left = TreeNode(left)
             que.append(node.left)
-            que.append(node.right)
-        else:
-            que.append(None)
-            que.append(None)
+        if elems:
+            right = elems.popleft()
+            if right is not None:
+                node.right = TreeNode(right)
+                que.append(node.right)
     return root
 
 
 def bfsTreeNode(root: TreeNode) -> list:
     """
     BFs TreeNode
-    :param root:
-    :return:
+    Hierarchical traversal
     """
     if not root:
         return []
     from collections import deque
     que = deque()
     que.append(root)
-    res = []
-    while any(que):
+    res = [root.val]
+    while que:
         node = que.popleft()
-        if node:
-            res.append(node.val)
+        if node.left:
+            res.append(node.left.val)
             que.append(node.left)
+        else:
+            res.append(None)
+        if node.right:
+            res.append(node.right.val)
             que.append(node.right)
         else:
             res.append(None)
-            que.append(None)
-            que.append(None)
     return res
 
 
@@ -88,45 +99,149 @@ def printTree(root):
     print(bfsTreeNode(root))
 
 
-def PreOrderTraversal(root: TreeNode) -> list:
-    if not root:
-        return []
-    res = []
+class Traversal():
+    '''
+    Traversal method for binary tree
+    Pre/In/Post Order Traversal methods:
+    包含递归和迭代的写法
+    包含层次遍历的代码
+    '''
 
-    def helper(node):
-        if not node:
-            return
-        res.append(node.val)
-        helper(node.left)
-        helper(node.right)
+    @staticmethod
+    def PreOrderStack(root: TreeNode) -> list:
+        if not root:
+            return []
+        res = []
+        stack = []
+        node = root
+        while node or stack:
+            while node:
+                res.append(node.val)
+                stack.append(node)
+                node = node.left
+            node = stack.pop()
+            node = node.right
+        return res
 
-    helper(root)
-    return res
+    @staticmethod
+    def InOrderStack(root):
+        if not root:
+            return []
+        res = []
+        stack = []
+        node = root
+        while node or stack:
+            while node:
+                stack.append(node)
+                node = node.left
+            node = stack.pop()
+            res.append(node.val)
+            node = node.right
+        return res
 
+    @staticmethod
+    def PostOrderStack(root):
+        '''
+        left right root
+        '''
+        if not root:
+            return []
+        stack1 = [root]
+        stack2 = []
+        while stack1:
+            # 招数后序遍历的逆序. 存放在 stack2 中
+            node = stack1.pop()
+            if node.left:
+                stack1.append(node.left)
+            if node.right:
+                stack1.append(node.right)
+            stack2.append(node.val)
+        return stack2[::-1]
 
-def InOrderTraversal(root: TreeNode) -> list:
-    if not root:
-        return []
-    res = []
+    @staticmethod
+    def PreOrderTraversal(root: TreeNode) -> list:
+        if not root:
+            return []
+        res = []
 
-    def helper(node):
-        if not node:
-            return
-        helper(node.left)
-        res.append(node.val)
-        helper(node.right)
+        def helper(node):
+            if not node:
+                return
+            res.append(node.val)
+            helper(node.left)
+            helper(node.right)
 
-    helper(root)
-    return res
+        helper(root)
+        return res
+
+    @staticmethod
+    def InOrderTraversal(root: TreeNode) -> list:
+        if not root:
+            return []
+        res = []
+
+        def helper(node):
+            if not node:
+                return
+            helper(node.left)
+            res.append(node.val)
+            helper(node.right)
+
+        helper(root)
+        return res
+
+    @staticmethod
+    def PostOrderTraversal(root: TreeNode) -> list:
+        if not root:
+            return []
+        res = []
+
+        def helper(node):
+            if not node:
+                return
+            helper(node.left)
+            helper(node.right)
+            res.append(node.val)
+
+        helper(root)
+        return res
+
+    @staticmethod
+    def HierarchicalTraversal(root: TreeNode) -> list:
+        if not root:
+            return []
+        from collections import deque
+        que = deque()
+        que.append(root)
+        res = [root.val]
+        while que:
+            node = que.popleft()
+            if node.left:
+                res.append(node.left.val)
+                que.append(node.left)
+            else:
+                res.append(None)
+            if node.right:
+                res.append(node.right.val)
+                que.append(node.right)
+            else:
+                res.append(None)
+        return res
 
 
 if __name__ == '__main__':
-    root = buildTreeFromList([1, 3, 2, None, None, 7, None])
+    root = buildTreeFromList([1, None, 2, None, 3, None, 4, 5, 6])
     print('root1', bfsTreeNode(root))
-    pres = PreOrderTraversal(root)
-    ins = InOrderTraversal(root)
+    pres = Traversal.PreOrderTraversal(root)
+    ins = Traversal.InOrderTraversal(root)
     print('pres', pres)
     print('inos', ins)
     root2 = buildTreeFromPreInTraversal(pres, ins)
     print('root2', bfsTreeNode(root2))
     printTree(root2)
+    print(Traversal.InOrderTraversal(root2))
+    print(Traversal.InOrderStack(root2))
+    print(Traversal.PreOrderTraversal(root2))
+    print(Traversal.PreOrderStack(root2))
+    print(Traversal.PostOrderTraversal(root2))
+    print(Traversal.PostOrderStack(root2))
