@@ -5,7 +5,9 @@ null = None
 1. build tree from preorder traversal and inorder traversal
 2. build tree from list, like leetcode test input
 3. print tree from bfs result, like leetcode test output
-4. traversals
+4. traversals:
+    - Pre/In/Post order traversal
+    - find the lowest comman ancestor of two nodes
 """
 
 
@@ -14,6 +16,9 @@ class TreeNode:
         self.val = x
         self.left = None
         self.right = None
+
+    def __repr__(self):
+        return 'TreeNode({})'.format(self.val)
 
 
 def buildTreeFromPreInTraversal(preorder: List[int],
@@ -253,6 +258,26 @@ class Traversal():
                 res.append(None)
         return res
 
+    @staticmethod
+    def lowestCommonAncestor(root, node1, node2):
+        '''
+        寻找二叉树的最近公共祖先
+        '''
+
+        def helper(node, p, q):
+            if not node or node == q or node == p:
+                return node
+            leftnode = helper(node.left, p, q)
+            rightnode = helper(node.right, p, q)
+            if not leftnode:
+                return rightnode
+            if not rightnode:
+                return leftnode
+            return node
+
+        node = helper(root, node1, node2)
+        return node
+
 
 if __name__ == '__main__':
     root = buildTreeFromList([1, None, 2, None, 3, None, 4, 5, 6])
@@ -270,3 +295,6 @@ if __name__ == '__main__':
     print(Traversal.PreOrderStack(root2))
     print(Traversal.PostOrderTraversal(root2))
     print(Traversal.PostOrderStack(root2))
+    print(Traversal.lowestCommonAncestor(root2,
+                                         root2.right.right.right.left,
+                                         root2.right))
