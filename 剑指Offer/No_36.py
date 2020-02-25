@@ -27,3 +27,29 @@ class Solution:
             node.left = tmp[idx - 1]
             node.right = tmp[(idx + 1) % n]
         return tmp[0]
+
+    def treeToDoublyList2(self, root: 'Node') -> 'Node':
+        if not root:
+            return root
+        stack = []
+        node = root
+        while node:
+            stack.append(node)
+            node = node.left
+        before = None
+        head = stack[-1]
+        while stack:
+            cur = stack.pop()
+            tmp = cur.right
+            while tmp:
+                stack.append(tmp)
+                tmp = tmp.left
+            if stack:
+                after = stack[-1]
+            else:
+                after = head
+            cur.left = before
+            cur.right = after
+            before = cur
+        head.left = before
+        return head
