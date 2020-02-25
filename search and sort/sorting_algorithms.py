@@ -189,6 +189,34 @@ def heapify(arr, n, i):
         heapify(arr, n, largest)
 
 
+def merge_sort(nums):
+    '''
+    merge sort 归并排序
+    O(nlogn)
+    auxiliary space O(n)
+    Divide and conquer
+    stable 归并排序稳定
+    '''
+    if len(nums) < 2:
+        return nums
+    mid = len(nums) // 2
+    left = merge_sort(nums[:mid])
+    right = merge_sort(nums[mid:])
+    return merge(left, right)
+
+
+def merge(left, right):
+    res = []
+    i = j = 0
+    while i < len(left) and j < len(right):
+        if left[i] <= right[j]:
+            res.append(left[i])
+            i += 1
+        else:
+            res.append(right[j])
+            j += 1
+    return res + left[i:] + right[j:]
+
 if __name__ == '__main__':
     nums = [1, 3, 2, 4, 7, 6, 5, 8]
     res = {}
@@ -198,6 +226,6 @@ if __name__ == '__main__':
     res['selection'] = selection_sort(nums[:])
     res['shell'] = shell_sort(nums[:])
     res['heapsort'] = heap_sort(nums[:])
-
+    res['mergesort'] = merge_sort(nums[:])
     for k, v in res.items():
         print('{}:{}'.format(k, v))
