@@ -45,7 +45,10 @@ class FenwickTree:
         return self.prefixSum(idx2) - self.prefixSum(idx1 - 1)
 
 
-class FenwickTree_2a:
+class FenwickTree_2:
+    '''
+    FenwickTree 可用于数组逆序对统计
+    '''
     def __init__(self, n):
         self.size = n
         self.tree = [0] * (n + 1)
@@ -67,6 +70,39 @@ class FenwickTree_2a:
             index -= self.__lowbit(index)
         return res
 
+
+def count_reversePairs(nums: list) -> int:
+    """
+    LeetCode 0315  liweiwei 的答案
+    1. 数据离散化, 对数字大小通过rank 排名
+    2. 逆序遍历数组, 更新树状数组
+    3. 查询树状数组当前更新索引的前缀和,
+       为当前这个数相关的逆序对个数
+    """
+    # refer to liweiwei's solution
+    size = len(nums)
+    if size < 2:
+        return 0
+    s = list(set(nums))
+    import heapq
+    heapq.heapify(s)
+    rank_map = {}
+    rank = 1
+    rank_map_size = len(s)
+    for _ in range(rank_map_size):
+        num = heapq.heappop(s)
+        rank_map[num] = rank
+        rank += 1
+
+    res = 0
+    fenwicktree = FenwickTree_2(rank_map_size)
+    # 数组逆序遍历
+    for i in range(size - 1, -1, -1):
+        rank = rank_map[nums[i]]
+        fenwicktree.update(rank, 1)
+        res += fenwicktree.query(rank - 1)
+    return res
+
 if __name__ == '__main__':
     nums = [1, 3, 5, 7, 8]
     BIT = FenwickTree(nums)
@@ -75,3 +111,4 @@ if __name__ == '__main__':
     BIT.update(1, 2)
     print(BIT.rangeSum(0, 2))
     print(BIT.BIT_arr)
+    print(count_reversePairs([1, 3, 2, 4, 5]))
