@@ -45,6 +45,28 @@ class FenwickTree:
         return self.prefixSum(idx2) - self.prefixSum(idx1 - 1)
 
 
+class FenwickTree_2a:
+    def __init__(self, n):
+        self.size = n
+        self.tree = [0] * (n + 1)
+
+    def __lowbit(self, index):
+        return index & (-index)
+
+    def update(self, index, delta):
+        # 单点更新
+        while index < self.size + 1:
+            self.tree[index] += delta
+            index += self.__lowbit(index)
+
+    def query(self, index):
+        # 区间查询 or 前缀和
+        res = 0
+        while index > 0:
+            res += self.tree[index]
+            index -= self.__lowbit(index)
+        return res
+
 if __name__ == '__main__':
     nums = [1, 3, 5, 7, 8]
     BIT = FenwickTree(nums)
