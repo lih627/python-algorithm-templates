@@ -57,9 +57,11 @@ TBD:
 
 ## 剑指Offer
 
+剑指 Offer 所有python题解已全部完成
+
 TBD:
 
--[ ] No_11: add binary search solution
+-[x] No_11: add binary search solution
 
--[ ] No_36: add  non-recursive solution
+-[x] No_36: add  non-recursive solution
 
