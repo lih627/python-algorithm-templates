@@ -74,8 +74,33 @@ def get_pmt(pat: str) -> list:
     return pmt
 
 
+def get_nextval(pat):
+    '''
+    pat[i] == pat[next[i]]
+     配位失败不需要返回next[i], 而是next[next[i]]
+     如果不相等, 配位失败返回 next[i]
+    '''
+    _next = [0] * len(pat)
+    _next[0] = -1
+    i, j = 0, -1
+    while i < len(pat) - 1:
+        if j == -1 or pat[i] == pat[j]:
+            i += 1
+            j += 1
+            _next[i] = j
+        else:
+            j = _next[j]
+    nextval = _next[:]
+    for i in range(2, len(pat)):
+        if (pat[i] == pat[_next[i]]):
+            nextval[i] = nextval[_next[i]]
+    return nextval
+
+
 if __name__ == '__main__':
-    # strs = 'hello'
-    # pat = 'll'
-    # print(kmp(pat, strs))
+    strs = 'hello'
+    pat = 'll'
+    print(kmp(pat, strs))
     print(get_pmt('aabaaab'))
+    print(get_next('ababaabab'))
+    print(get_nextval('ababaabab'))
