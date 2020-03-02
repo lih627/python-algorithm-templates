@@ -9,7 +9,7 @@ class ListNode:
 
 
 class Solution:
-    def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+    def mergeKLists_(self, lists: List[ListNode]) -> ListNode:
         '''
         prehead = ListNode(-1)
         pre = prehead
@@ -37,4 +37,21 @@ class Solution:
         while head:
             idx, cur_cnt, pre.next = heapq.heappop(head)
             pre = pre.next
+        return dummy.next
+
+    def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+        import heapq
+        '''
+        heapqlist
+        '''
+        ListNode.__lt__ = lambda x, y: x.val < y.val
+        heap = [_ for _ in lists if _]
+        dummy = ListNode(None)
+        node = dummy
+        heapq.heapify(heap)
+        while heap:
+            node.next = heapq.heappop(heap)
+            node = node.next
+            if node.next:
+                heapq.heappush(heap, node.next)
         return dummy.next
