@@ -14,3 +14,20 @@ class Solution:
             else:
                 res += _
         return res
+
+    def decodeString2(self, s):
+        stack = []
+        for _ in s:
+            if _ == ']':
+                res = ''
+                tmp = stack.pop()
+                while tmp != '[':
+                    res = tmp + res
+                    tmp = stack.pop()
+                nums = ''
+                while stack and '0' <= stack[-1] <= '9':
+                    nums = stack.pop() + nums
+                stack.append(int(nums) * res)
+            else:
+                stack.append(_)
+        return ''.join(stack)
