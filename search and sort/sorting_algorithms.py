@@ -15,6 +15,7 @@ bucket sort 桶排序
 2. quick sort 快排 unstable
 
 归并排序 merge sort
+快速排序 quick sort
 '''
 
 
@@ -217,6 +218,27 @@ def merge(left, right):
             j += 1
     return res + left[i:] + right[j:]
 
+
+def partition(nums, low, high):
+    i = low - 1
+    pivot = nums[high]
+
+    for j in range(low, high):
+        if nums[j] < pivot:
+            i += 1
+            nums[i], nums[j] = nums[j], nums[i]
+
+    nums[i + 1], nums[high] = nums[high], nums[i + 1]
+    return i + 1
+
+
+def quick_sort(nums, low, high):
+    if low < high:
+        pivot = partition(nums, low, high)
+        quick_sort(nums, low, pivot - 1)
+        quick_sort(nums, pivot + 1, high)
+
+
 if __name__ == '__main__':
     nums = [1, 3, 2, 4, 7, 6, 5, 8]
     res = {}
@@ -227,5 +249,8 @@ if __name__ == '__main__':
     res['shell'] = shell_sort(nums[:])
     res['heapsort'] = heap_sort(nums[:])
     res['mergesort'] = merge_sort(nums[:])
+    tmp = nums[:]
+    quick_sort(tmp, 0, len(nums) - 1)
+    res['quicksort'] = tmp
     for k, v in res.items():
         print('{}:{}'.format(k, v))

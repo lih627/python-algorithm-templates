@@ -16,7 +16,9 @@ TBD
 
 **Circular Queue**
 
-**LRU Cache**
+**LRU Cache** LRU缓存, OrderedDict(链表+字典)
+
+**De/Serialize Binart Tree** 二叉树序列化, 反序列化 BFS
 
 
 
@@ -24,22 +26,32 @@ TBD
 
 **Catalan Number**: O(n) solution use binomial coefficient
 
+**compute square root**: 计算平方根, 牛顿法
+
+**Josephus Problem**: 约瑟夫环问题
 
 
 ## Data Structures
 
-**Fenwick Tree or  Binary Indexed Tree(BIT)**
+**Fenwick Tree or  Binary Indexed Tree(BIT)** 树状数组
 
+** Binary Tree ** 二叉树 深度/遍历/序列化/反序列化等
 
+**Linked List** 链表 逆序等
+
+**Heap** 堆(优先队列) 通过`heapq`实现
+
+**Tire Tree** 前缀树/字典树 `O(M)` `M`是最长字符串的长度
 
 ## Search and Sort
 
-**Binary Search Method** O(logn)
+**Binary Search Method** O(logn) 二分查找代码包括上界和下界搜索
 
-**Sorting algorithms:**
+**Sorting algorithms** 排序算法集合
 
-- 
-- 
+- [x] 加入快排partition
+
+**Boyer-Moore majority vote algorithm** 对拼消耗
 
 
 
