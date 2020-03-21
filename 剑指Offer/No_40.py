@@ -1,3 +1,6 @@
+from typing import List
+
+
 class Solution:
     def getLeastNumbers(self, arr: List[int], k: int) -> List[int]:
         if not arr: return []
