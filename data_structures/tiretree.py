@@ -41,7 +41,7 @@ def _test():
     output = ["Not present in trie",
               "Present in trie"]
 
-    # Trie object
+    # Trie objec
     t = Trie()
 
     # Construct trie

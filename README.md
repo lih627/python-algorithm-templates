@@ -6,7 +6,7 @@ TBD
 
 - [ ] Add Segment Tree for data structure
 
-- [ ] Add union-find algorithm(Disjoint Set Union) for data structure
+- [x] Add union-find algorithm(Disjoint Set Union) for data structure
 
 - [x] Add catalan number
 
@@ -30,18 +30,25 @@ TBD
 
 **Josephus Problem**: 约瑟夫环问题
 
+**Bézout's lemma** 裴蜀定理/[贝祖定理](https://oi-wiki.org/math/bezouts/) 判断$ax + by = c$ 是否有整数解
+
+
+
+
 
 ## Data Structures
 
 **Fenwick Tree or  Binary Indexed Tree(BIT)** 树状数组
 
-** Binary Tree ** 二叉树 深度/遍历/序列化/反序列化等
+**Binary Tree** 二叉树 深度/遍历/序列化/反序列化等
 
 **Linked List** 链表 逆序等
 
 **Heap** 堆(优先队列) 通过`heapq`实现
 
 **Tire Tree** 前缀树/字典树 `O(M)` `M`是最长字符串的长度
+
+
 
 ## Search and Sort
 
@@ -52,6 +59,12 @@ TBD
 - [x] 加入快排partition
 
 **Boyer-Moore majority vote algorithm** 对拼消耗
+
+**Quick select** 快速选择算法O(n)时间选择出最小的第k的元素
+
+**Partitions** 不同的partition方式, 对重复/近似排序序列
+
+**quickseletc** ~O(n) alogrithm for Top-k problem
 
 
 
@@ -73,7 +86,7 @@ TBD:
 
 TBD:
 
--[x] No_11: add binary search solution
+- [x] No_11: add binary search solution
 
--[x] No_36: add  non-recursive solution
+- [x] No_36: add  non-recursive solution
 
