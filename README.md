@@ -32,7 +32,9 @@ TBD
 
 **Bézout's lemma** 裴蜀定理/[贝祖定理](https://oi-wiki.org/math/bezouts/) 判断$ax + by = c$ 是否有整数解
 
+**快速幂/矩阵快速幂** md
 
+**Fast Pow and Matrix Application** quick pow algorithm
 
 
 
@@ -47,6 +49,10 @@ TBD
 **Heap** 堆(优先队列) 通过`heapq`实现
 
 **Tire Tree** 前缀树/字典树 `O(M)` `M`是最长字符串的长度
+
+## Geometry
+
+**Rectangles in Rectangles** 计算一个矩形能否放入另一个矩形中 [参考](https://stackoverflow.com/questions/13784274/detect-if-one-rect-can-be-put-into-another-rect)
 
 
 
@@ -65,6 +71,8 @@ TBD
 **Partitions** 不同的partition方式, 对重复/近似排序序列
 
 **quickseletc** ~O(n) alogrithm for Top-k problem
+
+##
 
 
 
