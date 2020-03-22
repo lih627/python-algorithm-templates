@@ -2,6 +2,7 @@
 https://stackoverflow.com/questions/13784274/detect-if-one-rect-can-be-put-into-another-rect
 detect-if-one-rect-can-be-put-into-another-rect
 
+
 See Rectangles in Rectangles for more details
 """
 
