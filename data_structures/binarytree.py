@@ -179,7 +179,7 @@ class Traversal():
         stack1 = [root]
         stack2 = []
         while stack1:
-            # 招数后序遍历的逆序. 存放在 stack2 中
+            # 将后序遍历的逆序. 存放在 stack2 中
             node = stack1.pop()
             if node.left:
                 stack1.append(node.left)
