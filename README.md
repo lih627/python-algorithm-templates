@@ -1,5 +1,7 @@
 # Algorithm templates and LeetCode Solutions
 
+[toc]
+
 TBD
 
 - [x] Add multi binary search algorithm for leetcode0034
@@ -9,6 +11,16 @@ TBD
 - [x] Add union-find algorithm(Disjoint Set Union) for data structure
 
 - [x] Add catalan number
+
+## Notes
+
+此处主要加入自己的学习笔记
+
+**快速幂/矩阵快速幂**
+
+**支持向量机**
+
+- [ ] 还需要补充完善
 
 
 
@@ -36,6 +48,10 @@ TBD
 
 **Fast Pow and Matrix Application** quick pow algorithm
 
+**Greatest Common Divisor(GCD)** Euclidean algorithm
+
+
+
 
 
 ## Data Structures
@@ -48,7 +64,7 @@ TBD
 
 **Heap** 堆(优先队列) 通过`heapq`实现
 
-**Tire Tree** 前缀树/字典树 `O(M)` `M`是最长字符串的长度
+**Trie Tree** 前缀树/字典树 `O(M)` `M`是最长字符串的长度
 
 ## Geometry
 
@@ -72,7 +88,19 @@ TBD
 
 **quickseletc** ~O(n) alogrithm for Top-k problem
 
-##
+
+
+## String
+
+**KMP** 字符串匹配算法
+
+**RE-match** 正则表达式匹配
+
+**LCS** 最长公共子序列
+
+**Longest Substring without Repeating Characters** 最长无重复字符子序列 滑动窗口法
+
+
 
 
 
