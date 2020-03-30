@@ -8,7 +8,7 @@ class Trie:
     def __init__(self):
         self.root = self.getNode()
 
-    def getNode(selfself):
+    def getNode(self):
         return TrieNode()
 
     def _charToIndex(self, ch):
