@@ -50,6 +50,8 @@ TBD
 
 **Greatest Common Divisor(GCD)** Euclidean algorithm
 
+**Sieve of Eratosthenes ** 埃拉托斯特尼筛法/埃氏筛 求自然数n以内的所有素数
+
 
 
 
@@ -69,6 +71,8 @@ TBD
 ## Geometry
 
 **Rectangles in Rectangles** 计算一个矩形能否放入另一个矩形中 [参考](https://stackoverflow.com/questions/13784274/detect-if-one-rect-can-be-put-into-another-rect)
+
+**Check Overlap** 判断圆和矩形是否有重叠 [参考](https://www.zhihu.com/question/24251545/answer/27184960)
 
 
 
