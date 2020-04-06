@@ -129,6 +129,53 @@ def getDepthv2(root):
     return cnt
 
 
+def flatten_recurrence(root: TreeNode) -> None:
+    """
+    Do not return anything, modify root in-place instead.
+    原地将二叉树转化为列表
+    """
+
+    def helper(node):
+        if not node:
+            return
+        if not node.left and not node.right:
+            return node
+        l = node.left
+        r = node.right
+        if not r:
+            node.left = None
+            node.right = l
+            return helper(l)
+        if not l:
+            return helper(r)
+
+        lr = helper(l)
+        node.left = None
+        node.right = l
+        lr.right = r
+        return helper(r)
+
+    helper(root)
+
+
+def flatten(root: TreeNode) -> None:
+    """
+    将二叉树转化为链表
+    迭代版本
+    """
+    node = root
+    while node:
+        if node.left:
+            lr = node.left
+            while lr.right:
+                lr = lr.right
+            r = node.right
+            l = node.left
+            lr.right = r
+            node.right = l
+            node.left = None
+        node = node.right
+
 class Traversal():
     '''
     Traversal method for binary tree
