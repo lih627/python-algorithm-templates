@@ -107,7 +107,10 @@ class TableInform:
             if item.startswith('LeetCode'):
                 complete_info.complete_num += 1
                 folder_url = os.path.join(Config.github_leetcode_url, item)
-                self.table_item[item[-7: -3]].python = '[Python]({})'.format(folder_url)
+                try:
+                    self.table_item[item[-7: -3]].python = '[Python]({})'.format(folder_url)
+                except Exception as e:
+                    continue
         readme = Readme(complete_info.total,
                         complete_info.complete_num,
                         complete_info.lock,
