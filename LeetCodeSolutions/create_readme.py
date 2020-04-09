@@ -6,6 +6,25 @@ import json
 import time
 
 
+def _update_dict(org_dict, item_id, extension_name, url, complete_info, complete_items):
+    try:
+        if extension_name == 'py':
+            org_dict[item_id].python = '[Python]({})'.format(url)
+            complete_info.solved['python'] += 1
+        elif extension_name == 'cpp':
+            org_dict[item_id].cpp = '[CPP]({})'.format(url)
+            complete_info.solved['c++'] += 1
+        elif extension_name == 'sh':
+            org_dict[item_id].shell = '[Shell]({})'.format(url)
+            complete_info.solved['shell'] += 1
+        elif extension_name == 'sql':
+            org_dict[item_id].sql = '[Sql]({})'.format(url)
+            complete_info.solved['sql'] += 1
+        complete_items.add(item_id)
+    except Exception:
+        return
+
+
 class Config:
     """
     some config, such as your github page
@@ -39,7 +58,9 @@ class Question:
         self.python = ''
         # self.java = ''
         # self.javascript = ''
-        # self.c_plus_plus = ''
+        self.cpp = ''
+        self.shell = ''
+        self.sql = ''
 
     def __repr__(self):
         """
@@ -103,14 +124,31 @@ class TableInform:
         # oj_algorithms = Config.local_path + '/' + oj
         # 查看os.walk看具体返回的是什么东西
         files = os.listdir(Config.local_path)
+        # 存入完成题目的字符串信息 如'LeetCode_0001'
+        complete_items = set()
         for item in files:
             if item.startswith('LeetCode'):
-                complete_info.complete_num += 1
+                str_item = str(item)
+                item_name = str_item[:len('LeetCode_0000')]
+                extension_name = str_item[len('LeetCode_0000.'):]
+                item_id = str_item[9: 13]
+                # print(extension_name)
+                # complete_info.complete_num += 1
                 folder_url = os.path.join(Config.github_leetcode_url, item)
-                try:
-                    self.table_item[item[-7: -3]].python = '[Python]({})'.format(folder_url)
-                except Exception as e:
-                    continue
+                _update_dict(org_dict=self.table_item,
+                             item_id=item_id,
+                             extension_name=extension_name,
+                             url=folder_url,
+                             complete_info=complete_info,
+                             complete_items=complete_items)
+                # try:
+                #     if extension_name == 'py':
+                #         self.table_item[item_id].python = '[Python]({})'.format(folder_url)
+                #     elif extension_name == 'sh':
+                #         self.table_item[item_id].shell = '[Shell]({})'.format(folder_url)
+                # except Exception as e:
+                #     continue
+        complete_info.complete_num = len(complete_items)
         readme = Readme(complete_info.total,
                         complete_info.complete_num,
                         complete_info.lock,
@@ -131,8 +169,8 @@ class CompleteInform:
         self.solved = {
             'python': 0,
             'c++': 0,
-            'java': 0,
-            'javascript': 0
+            'shell': 0,
+            'sql': 0
         }
         self.complete_num = 0
         self.lock = 0
@@ -194,9 +232,12 @@ class Readme:
                     'id': item.id_,
                     'title': '[{}]({}) {}'.format(item.title, item.url, _lock),
                     'difficulty': item.difficulty,
-                    'python': item.python if item.python else 'ToDo',
+                    'python': item.python,
+                    'shell': item.shell,
+                    'c++': item.cpp,
+                    'sql': item.sql
                 }
-                line = '|{id}|{title}|{difficulty}|{python}|\n'.format(**data)
+                line = '|{id}|{title}|{difficulty}|{python} {c++} {shell} {sql}|\n'.format(**data)
                 f.write(line)
             print('README.md was created.....')
 
