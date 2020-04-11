@@ -74,6 +74,10 @@ TBD
 
 **Check Overlap** 判断圆和矩形是否有重叠 [参考](https://www.zhihu.com/question/24251545/answer/27184960)
 
+**Check tow line intersection** 判断两个线段是否相交 [参考](https://leetcode-cn.com/problems/intersection-lcci/solution/jiao-dian-by-leetcode-solution/)
+
+
+
 
 
 ## Search and Sort
