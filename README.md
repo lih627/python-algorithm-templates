@@ -68,6 +68,10 @@ TBD
 
 **Trie Tree** 前缀树/字典树 `O(M)` `M`是最长字符串的长度
 
+**HashSet**哈希集合(list + BST)
+
+**HashMap** 哈希映射 (list + linkedlist)
+
 ## Geometry
 
 **Rectangles in Rectangles** 计算一个矩形能否放入另一个矩形中 [参考](https://stackoverflow.com/questions/13784274/detect-if-one-rect-can-be-put-into-another-rect)
