@@ -1,5 +1,5 @@
 # LeetCode Solutions
-> Until 2020-04-18 01:39:35, solved **286** / **1293** problems while **208** are still locked.
+> Until 2020-04-20 22:37:28, solved **306** / **1301** problems while **208** are still locked.
 
 ----------------
 | ID | Title | Difficulty | Solutions|
@@ -148,7 +148,7 @@
 |0142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/) |Medium|   |
 |0143|[Reorder List](https://leetcode.com/problems/reorder-list/description/) |Medium|   |
 |0144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0144.py)   |
-|0145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/) |Hard|   |
+|0145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/) |Hard|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0145.py)   |
 |0146|[LRU Cache](https://leetcode.com/problems/lru-cache/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0146.py)   |
 |0147|[Insertion Sort List](https://leetcode.com/problems/insertion-sort-list/description/) |Medium|   |
 |0148|[Sort List](https://leetcode.com/problems/sort-list/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0148.py)   |
@@ -156,7 +156,7 @@
 |0150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0150.py)   |
 |0151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0151.py)   |
 |0152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0152.py)   |
-|0153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) |Medium|   |
+|0153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/) |Medium| [CPP](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0153.cpp)  |
 |0154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/) |Hard|   |
 |0155|[Min Stack](https://leetcode.com/problems/min-stack/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0155.py)   |
 |0156|[Binary Tree Upside Down](https://leetcode.com/problems/binary-tree-upside-down/description/) :lock:|Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0156.py)   |
@@ -165,7 +165,7 @@
 |0159|[Longest Substring with At Most Two Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/description/) :lock:|Medium|   |
 |0160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0160.py)   |
 |0161|[One Edit Distance](https://leetcode.com/problems/one-edit-distance/description/) :lock:|Medium|   |
-|0162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/description/) |Medium|   |
+|0162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/description/) |Medium| [CPP](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0162.cpp)  |
 |0163|[Missing Ranges](https://leetcode.com/problems/missing-ranges/description/) :lock:|Medium|   |
 |0164|[Maximum Gap](https://leetcode.com/problems/maximum-gap/description/) |Hard|   |
 |0165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0165.py)   |
@@ -173,7 +173,7 @@
 |0167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0167.py)   |
 |0168|[Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/) |Easy|   |
 |0169|[Majority Element](https://leetcode.com/problems/majority-element/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0169.py)   |
-|0170|[Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/description/) :lock:|Easy|   |
+|0170|[Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/description/) :lock:|Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0170.py)   |
 |0171|[Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/description/) |Easy|   |
 |0172|[Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/) |Easy|   |
 |0173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0173.py)   |
@@ -236,7 +236,7 @@
 |0246|[Strobogrammatic Number](https://leetcode.com/problems/strobogrammatic-number/description/) :lock:|Easy|   |
 |0247|[Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii/description/) :lock:|Medium|   |
 |0248|[Strobogrammatic Number III](https://leetcode.com/problems/strobogrammatic-number-iii/description/) :lock:|Hard|   |
-|0249|[Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/description/) :lock:|Medium|   |
+|0249|[Group Shifted Strings](https://leetcode.com/problems/group-shifted-strings/description/) :lock:|Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0249.py)   |
 |0250|[Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/description/) :lock:|Medium|   |
 |0251|[Flatten 2D Vector](https://leetcode.com/problems/flatten-2d-vector/description/) :lock:|Medium|   |
 |0252|[Meeting Rooms](https://leetcode.com/problems/meeting-rooms/description/) :lock:|Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0252.py)   |
@@ -274,7 +274,7 @@
 |0285|[Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/description/) :lock:|Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0285.py)   |
 |0286|[Walls and Gates](https://leetcode.com/problems/walls-and-gates/description/) :lock:|Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0286.py)   |
 |0287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0287.py)   |
-|0288|[Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation/description/) :lock:|Medium|   |
+|0288|[Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation/description/) :lock:|Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0288.py)   |
 |0289|[Game of Life](https://leetcode.com/problems/game-of-life/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0289.py)   |
 |0290|[Word Pattern](https://leetcode.com/problems/word-pattern/description/) |Easy|   |
 |0291|[Word Pattern II](https://leetcode.com/problems/word-pattern-ii/description/) :lock:|Hard|   |
@@ -333,7 +333,7 @@
 |0344|[Reverse String](https://leetcode.com/problems/reverse-string/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0344.py)   |
 |0345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/) |Easy|   |
 |0346|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/description/) :lock:|Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0346.py)   |
-|0347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/) |Medium|   |
+|0347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0347.py)   |
 |0348|[Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/description/) :lock:|Medium|   |
 |0349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0349.py)   |
 |0350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0350.py)   |
@@ -345,7 +345,7 @@
 |0356|[Line Reflection](https://leetcode.com/problems/line-reflection/description/) :lock:|Medium|   |
 |0357|[Count Numbers with Unique Digits](https://leetcode.com/problems/count-numbers-with-unique-digits/description/) |Medium|   |
 |0358|[Rearrange String k Distance Apart](https://leetcode.com/problems/rearrange-string-k-distance-apart/description/) :lock:|Hard|   |
-|0359|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/description/) :lock:|Easy|   |
+|0359|[Logger Rate Limiter](https://leetcode.com/problems/logger-rate-limiter/description/) :lock:|Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0359.py)   |
 |0360|[Sort Transformed Array](https://leetcode.com/problems/sort-transformed-array/description/) :lock:|Medium|   |
 |0361|[Bomb Enemy](https://leetcode.com/problems/bomb-enemy/description/) :lock:|Medium|   |
 |0362|[Design Hit Counter](https://leetcode.com/problems/design-hit-counter/description/) :lock:|Medium|   |
@@ -353,14 +353,14 @@
 |0364|[Nested List Weight Sum II](https://leetcode.com/problems/nested-list-weight-sum-ii/description/) :lock:|Medium|   |
 |0365|[Water and Jug Problem](https://leetcode.com/problems/water-and-jug-problem/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0365.py)   |
 |0366|[Find Leaves of Binary Tree](https://leetcode.com/problems/find-leaves-of-binary-tree/description/) :lock:|Medium|   |
-|0367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/) |Easy|   |
+|0367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/) |Easy| [CPP](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0367.cpp)  |
 |0368|[Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/description/) |Medium|   |
 |0369|[Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/description/) :lock:|Medium|   |
 |0370|[Range Addition](https://leetcode.com/problems/range-addition/description/) :lock:|Medium|   |
 |0371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0371.py)   |
 |0372|[Super Pow](https://leetcode.com/problems/super-pow/description/) |Medium|   |
 |0373|[Find K Pairs with Smallest Sums](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/description/) |Medium|   |
-|0374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/description/) |Easy|   |
+|0374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0374.py)   |
 |0375|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/description/) |Medium|   |
 |0376|[Wiggle Subsequence](https://leetcode.com/problems/wiggle-subsequence/description/) |Medium|   |
 |0377|[Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/) |Medium|   |
@@ -551,7 +551,7 @@
 |0593|[Valid Square](https://leetcode.com/problems/valid-square/description/) |Medium|   |
 |0594|[Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/description/) |Easy|   |
 |0598|[Range Addition II](https://leetcode.com/problems/range-addition-ii/description/) |Easy|   |
-|0599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/) |Easy|   |
+|0599|[Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0599.py)   |
 |0600|[Non-negative Integers without Consecutive Ones](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones/description/) |Hard|   |
 |0604|[Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator/description/) :lock:|Easy|   |
 |0605|[Can Place Flowers](https://leetcode.com/problems/can-place-flowers/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0605.py)   |
@@ -587,7 +587,7 @@
 |0649|[Dota2 Senate](https://leetcode.com/problems/dota2-senate/description/) |Medium|   |
 |0650|[2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0650.py)   |
 |0651|[4 Keys Keyboard](https://leetcode.com/problems/4-keys-keyboard/description/) :lock:|Medium|   |
-|0652|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/description/) |Medium|   |
+|0652|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0652.py)   |
 |0653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/) |Easy|   |
 |0654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/description/) |Medium|   |
 |0655|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/description/) |Medium|   |
@@ -688,8 +688,8 @@
 |0759|[Employee Free Time](https://leetcode.com/problems/employee-free-time/description/) :lock:|Hard|   |
 |0760|[Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/description/) :lock:|Easy|   |
 |0761|[Special Binary String](https://leetcode.com/problems/special-binary-string/description/) |Hard|   |
-|0429|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/) |Medium|   |
-|0428|[Serialize and Deserialize N-ary Tree](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/description/) :lock:|Hard|   |
+|0429|[N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0429.py)   |
+|0428|[Serialize and Deserialize N-ary Tree](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/description/) :lock:|Hard|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0428.py)   |
 |0430|[Flatten a Multilevel Doubly Linked List](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0430.py)   |
 |0762|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/description/) |Easy|   |
 |0763|[Partition Labels](https://leetcode.com/problems/partition-labels/description/) |Medium|   |
@@ -698,25 +698,25 @@
 |0431|[Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/description/) :lock:|Hard|   |
 |0427|[Construct Quad Tree](https://leetcode.com/problems/construct-quad-tree/description/) |Medium|   |
 |0558|[Logical OR of Two Binary Grids Represented as Quad-Trees](https://leetcode.com/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/description/) |Medium|   |
-|0559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/description/) |Easy|   |
-|0589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/) |Easy|   |
-|0590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/description/) |Easy|   |
+|0559|[Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0559.py)   |
+|0589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0589.py)   |
+|0590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0590.py)   |
 |0766|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/description/) |Easy|   |
 |0767|[Reorganize String](https://leetcode.com/problems/reorganize-string/description/) |Medium|   |
 |0768|[Max Chunks To Make Sorted II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/description/) |Hard|   |
 |0769|[Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/description/) |Medium|   |
 |0770|[Basic Calculator IV](https://leetcode.com/problems/basic-calculator-iv/description/) |Hard|   |
-|0771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/description/) |Easy|   |
+|0771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0771.py)   |
 |0700|[Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0700.py)   |
 |0701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0701.py)   |
 |0772|[Basic Calculator III](https://leetcode.com/problems/basic-calculator-iii/description/) :lock:|Hard|   |
 |0702|[Search in a Sorted Array of Unknown Size](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/description/) :lock:|Medium|   |
 |0773|[Sliding Puzzle](https://leetcode.com/problems/sliding-puzzle/description/) |Hard|   |
 |0774|[Minimize Max Distance to Gas Station](https://leetcode.com/problems/minimize-max-distance-to-gas-station/description/) :lock:|Hard|   |
-|0703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/) |Easy|   |
+|0703|[Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0703.py)   |
 |0775|[Global and Local Inversions](https://leetcode.com/problems/global-and-local-inversions/description/) |Medium|   |
 |0776|[Split BST](https://leetcode.com/problems/split-bst/description/) :lock:|Medium|   |
-|0704|[Binary Search](https://leetcode.com/problems/binary-search/description/) |Easy|   |
+|0704|[Binary Search](https://leetcode.com/problems/binary-search/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0704.py)   |
 |0777|[Swap Adjacent in LR String](https://leetcode.com/problems/swap-adjacent-in-lr-string/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0777.py)   |
 |0778|[Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/description/) |Hard|   |
 |0779|[K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/description/) |Medium|   |
@@ -1290,6 +1290,10 @@
 |1395|[Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/description/) |Medium|   |
 |1396|[Design Underground System](https://leetcode.com/problems/design-underground-system/description/) |Medium|   |
 |1397|[Find All Good Strings](https://leetcode.com/problems/find-all-good-strings/description/) |Hard|   |
+|1413|[Minimum Value to Get Positive Step by Step Sum](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/description/) |Easy|   |
+|1414|[Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/description/) |Medium|   |
+|1415|[The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/description/) |Medium|   |
+|1416|[Restore The Array](https://leetcode.com/problems/restore-the-array/description/) |Hard|   |
 |1403|[Minimum Subsequence in Non-Increasing Order](https://leetcode.com/problems/minimum-subsequence-in-non-increasing-order/description/) |Easy|   |
 |1404|[Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/description/) |Medium|   |
 |1406|[Stone Game III](https://leetcode.com/problems/stone-game-iii/description/) |Hard|   |
@@ -1297,3 +1301,7 @@
 |1409|[Queries on a Permutation With Key](https://leetcode.com/problems/queries-on-a-permutation-with-key/description/) |Medium|   |
 |1410|[HTML Entity Parser](https://leetcode.com/problems/html-entity-parser/description/) |Medium|   |
 |1411|[Number of Ways to Paint N × 3 Grid](https://leetcode.com/problems/number-of-ways-to-paint-n-3-grid/description/) |Hard|   |
+|1417|[Reformat The String](https://leetcode.com/problems/reformat-the-string/description/) |Easy|   |
+|1418|[Display Table of Food Orders in a Restaurant](https://leetcode.com/problems/display-table-of-food-orders-in-a-restaurant/description/) |Medium|   |
+|1419|[Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/description/) |Medium|   |
+|1420|[Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/description/) |Hard|   |
