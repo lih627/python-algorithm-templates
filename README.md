@@ -136,7 +136,7 @@ TBD:
 
 
 
-See [LeetCodeList](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCodeList.md).
+See [LeetCodeList](https://github.com/lih627/python-algorithm-templates/blob/master/LeetCodeList.md).
 
 ## 剑指Offer
 
