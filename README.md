@@ -12,6 +12,8 @@ TBD
 
 - [x] Add catalan number
 
+
+
 ## Notes
 
 此处主要加入自己的学习笔记
@@ -126,13 +128,15 @@ TBD
 
 TBD:
 
-- [ ] LeetCode0004 
+- [ ] LeetCode0004
 
 - [ ] LeetCode0010: memorize dp
 
 - [x] LeetCode0030
 
 
+
+See [LeetCodeList](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCodeList.md).
 
 ## 剑指Offer
 
