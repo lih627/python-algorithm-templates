@@ -241,6 +241,35 @@ class Readme:
                 f.write(line)
             print('README.md was created.....')
 
+            file_path = Config.local_path + '/../LeetCodeList.md'
+            # write some basic inform about leetcode
+            with open(file_path, 'w') as f:
+                f.write(self.msg)
+                f.write('\n----------------\n')
+
+            with open(file_path, 'a') as f:
+                f.write('| ID | Title | Difficulty | Solutions|\n')
+                f.write('|:---:' * 4 + '|\n')
+                table, table_item = table_instance
+                for index in table:
+                    item = table_item[index]
+                    if item.lock:
+                        _lock = ':lock:'
+                    else:
+                        _lock = ''
+                    data = {
+                        'id': item.id_,
+                        'title': '[{}]({}) {}'.format(item.title, item.url, _lock),
+                        'difficulty': item.difficulty,
+                        'python': item.python,
+                        'shell': item.shell,
+                        'c++': item.cpp,
+                        'sql': item.sql
+                    }
+                    line = '|{id}|{title}|{difficulty}|{python} {c++} {shell} {sql}|\n'.format(**data)
+                    f.write(line)
+                print('README.md was created.....')
+
 
 def main():
     table = TableInform()
