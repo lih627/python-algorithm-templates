@@ -1,5 +1,5 @@
 # LeetCode Solutions
-> Until 2020-04-22 12:39:06, solved **308** / **1301** problems while **208** are still locked.
+> Until 2020-04-25 02:08:52, solved **309** / **1301** problems while **208** are still locked.
 
 ----------------
 | ID | Title | Difficulty | Solutions|
@@ -57,7 +57,7 @@
 |0051|[N-Queens](https://leetcode.com/problems/n-queens/description/) |Hard|   |
 |0052|[N-Queens II](https://leetcode.com/problems/n-queens-ii/description/) |Hard|   |
 |0053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0053.py)   |
-|0054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0054.py)   |
+|0054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0054.py) [CPP](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0054.cpp)  |
 |0055|[Jump Game](https://leetcode.com/problems/jump-game/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0055.py)   |
 |0056|[Merge Intervals](https://leetcode.com/problems/merge-intervals/description/) |Medium|   |
 |0057|[Insert Interval](https://leetcode.com/problems/insert-interval/description/) |Hard|   |
@@ -492,7 +492,7 @@
 |0515|[Find Largest Value in Each Tree Row](https://leetcode.com/problems/find-largest-value-in-each-tree-row/description/) |Medium|   |
 |0516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/) |Medium|   |
 |0517|[Super Washing Machines](https://leetcode.com/problems/super-washing-machines/description/) |Hard|   |
-|0518|[Coin Change 2](https://leetcode.com/problems/coin-change-2/description/) |Medium|   |
+|0518|[Coin Change 2](https://leetcode.com/problems/coin-change-2/description/) |Medium| [CPP](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0518.cpp)  |
 |0520|[Detect Capital](https://leetcode.com/problems/detect-capital/description/) |Easy|   |
 |0521|[Longest Uncommon Subsequence I ](https://leetcode.com/problems/longest-uncommon-subsequence-i/description/) |Easy|   |
 |0522|[Longest Uncommon Subsequence II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/description/) |Medium|   |

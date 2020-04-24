@@ -90,7 +90,7 @@ class TableInform:
         content = requests.get('https://leetcode.com/api/problems/algorithms/').content
         # get all problems
         self.questions = json.loads(content)['stat_status_pairs']
-        # print(self.questions)
+        print("get all problems")
         difficultys = ['Easy', 'Medium', 'Hard']
         for i in range(len(self.questions) - 1, -1, -1):
             question = self.questions[i]

@@ -24,6 +24,8 @@ TBD
 
 - [ ] 还需要补充完善
 
+**Buffon’s Needle Problem** 一个几何概型问题. 以及采样的技巧.
+
 
 
 ## Design
@@ -54,7 +56,7 @@ TBD
 
 **Sieve of Eratosthenes ** 埃拉托斯特尼筛法/埃氏筛 求自然数n以内的所有素数
 
-
+**Buffon’s Needle** 布丰问题/几何概型
 
 
 
@@ -73,6 +75,8 @@ TBD
 **HashSet**哈希集合(list + BST)
 
 **HashMap** 哈希映射 (list + linkedlist)
+
+
 
 ## Geometry
 
@@ -119,8 +123,6 @@ TBD
 **LCS** 最长公共子序列
 
 **Longest Substring without Repeating Characters** 最长无重复字符子序列 滑动窗口法
-
-
 
 
 
