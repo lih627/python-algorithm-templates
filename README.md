@@ -58,6 +58,8 @@ TBD
 
 **Buffon’s Needle** 布丰问题/几何概型
 
+**Reservoir Sampling** 蓄水池抽样, 从流数据中等概率采集 k 个样本.
+
 
 
 ## Data Structures
