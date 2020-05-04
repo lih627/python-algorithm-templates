@@ -13,10 +13,9 @@ def make_50():
     nums = [str(_) for _ in range(1, 10)]
     ops = ['+', '-', '*', '//', '']
     for op in itertools.product(*([ops for _ in range(8)])):
-        print(op)
-        # cur = ''.join([op[i // 2] if i & 1 else nums[i // 2] for i in range(17)])
-        # if eval(cur) == 50:
-        #     print(cur)
+        cur = ''.join([op[i // 2] if i & 1 else nums[i // 2] for i in range(17)])
+        if eval(cur) == 50:
+            print(cur)
 
 
 if __name__ == '__main__':
