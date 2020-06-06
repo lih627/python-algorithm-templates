@@ -1,5 +1,5 @@
 # LeetCode Solutions
-> Until 2020-06-04 14:47:42, solved **379** / **1343** problems while **214** are still locked.
+> Until 2020-06-07 03:09:50, solved **384** / **1343** problems while **214** are still locked.
 
 ----------------
 | ID | Title | Difficulty | Solutions|
@@ -129,9 +129,9 @@
 |0123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/) |Hard|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0123.py)   |
 |0124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) |Hard|   |
 |0125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0125.py)   |
-|0126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/description/) |Hard|   |
+|0126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/description/) |Hard| [CPP](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0126.cpp)  |
 |0127|[Word Ladder](https://leetcode.com/problems/word-ladder/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0127.py)   |
-|0128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) |Hard|   |
+|0128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) |Hard| [CPP](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0128.cpp)  |
 |0129|[Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0129.py)   |
 |0130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0130.py)   |
 |0131|[Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0131.py)   |
@@ -284,7 +284,7 @@
 |0295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/) |Hard|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0295.py)   |
 |0296|[Best Meeting Point](https://leetcode.com/problems/best-meeting-point/description/) :lock:|Hard|   |
 |0297|[Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/description/) |Hard|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0297.py)   |
-|0298|[Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/description/) :lock:|Medium|   |
+|0298|[Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/description/) :lock:|Medium| [CPP](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0298.cpp)  |
 |0299|[Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/description/) |Easy|   |
 |0300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0300.py)   |
 |0301|[Remove Invalid Parentheses](https://leetcode.com/problems/remove-invalid-parentheses/description/) |Hard|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0301.py)   |
@@ -560,7 +560,7 @@
 |0611|[Valid Triangle Number](https://leetcode.com/problems/valid-triangle-number/description/) |Medium|   |
 |0616|[Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string/description/) :lock:|Medium|   |
 |0617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/) |Easy|   |
-|0621|[Task Scheduler](https://leetcode.com/problems/task-scheduler/description/) |Medium|   |
+|0621|[Task Scheduler](https://leetcode.com/problems/task-scheduler/description/) |Medium| [CPP](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0621.cpp)  |
 |0623|[Add One Row to Tree](https://leetcode.com/problems/add-one-row-to-tree/description/) |Medium|   |
 |0624|[Maximum Distance in Arrays](https://leetcode.com/problems/maximum-distance-in-arrays/description/) :lock:|Easy|   |
 |0625|[Minimum Factorization](https://leetcode.com/problems/minimum-factorization/description/) :lock:|Medium|   |
@@ -1034,7 +1034,7 @@
 |1043|[Partition Array for Maximum Sum](https://leetcode.com/problems/partition-array-for-maximum-sum/description/) |Medium|   |
 |1044|[Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/description/) |Hard|   |
 |1165|[Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/description/) :lock:|Easy|   |
-|1153|[String Transforms Into Another String](https://leetcode.com/problems/string-transforms-into-another-string/description/) :lock:|Hard|   |
+|1153|[String Transforms Into Another String](https://leetcode.com/problems/string-transforms-into-another-string/description/) :lock:|Hard| [CPP](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_1153.cpp)  |
 |1166|[Design File System](https://leetcode.com/problems/design-file-system/description/) :lock:|Medium|   |
 |1167|[Minimum Cost to Connect Sticks](https://leetcode.com/problems/minimum-cost-to-connect-sticks/description/) :lock:|Medium|   |
 |1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/description/) |Easy|   |
@@ -1346,4 +1346,4 @@
 |1465|[Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/description/) |Medium|   |
 |1466|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/description/) |Medium|   |
 |1467|[Probability of a Two Boxes Having The Same Number of Distinct Balls](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/description/) |Hard|   |
-|1469|[Find All the Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/description/) :lock:|Easy|   |
+|1469|[Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/description/) :lock:|Easy|   |

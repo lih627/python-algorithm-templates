@@ -5,12 +5,11 @@
 TBD
 
 - [x] Add multi binary search algorithm for leetcode0034
-
 - [ ] Add Segment Tree for data structure
-
 - [x] Add union-find algorithm(Disjoint Set Union) for data structure
-
 - [x] Add catalan number
+- [ ] 全错位排列问题
+- [ ] LeetCode1467 概率问题
 
 
 
@@ -54,7 +53,7 @@ TBD
 
 **Greatest Common Divisor(GCD)** Euclidean algorithm
 
-**Sieve of Eratosthenes ** 埃拉托斯特尼筛法/埃氏筛 求自然数n以内的所有素数
+**Sieve of Eratosthenes **  埃拉托斯特尼筛法/埃氏筛 求自然数n以内的所有素数
 
 **Buffon’s Needle** 布丰问题/几何概型
 
@@ -136,9 +135,9 @@ TBD
 
 TBD:
 
-- [ ] LeetCode0004
+- [x] LeetCode0004
 
-- [ ] LeetCode0010: memorize dp
+- [x] LeetCode0010: memorize dp
 
 - [x] LeetCode0030
 
