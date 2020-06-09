@@ -1,5 +1,5 @@
 # LeetCode Solutions
-> Until 2020-06-07 03:09:50, solved **384** / **1343** problems while **214** are still locked.
+> Until 2020-06-10 00:45:52, solved **386** / **1347** problems while **214** are still locked.
 
 ----------------
 | ID | Title | Difficulty | Solutions|
@@ -12,7 +12,7 @@
 |0006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0006.py)   |
 |0007|[Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0007.py)   |
 |0008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0008.py)   |
-|0009|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0009.py)   |
+|0009|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0009.py) [CPP](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0009.cpp)  |
 |0010|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/) |Hard|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0010.py)   |
 |0011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0011.py)   |
 |0012|[Integer to Roman](https://leetcode.com/problems/integer-to-roman/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0012.py)   |
@@ -944,7 +944,7 @@
 |0987|[Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/description/) |Medium|   |
 |0988|[Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/description/) |Medium|   |
 |0989|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/description/) |Easy|   |
-|0990|[Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0990.py)   |
+|0990|[Satisfiability of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0990.py) [CPP](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0990.cpp)  |
 |0991|[Broken Calculator](https://leetcode.com/problems/broken-calculator/description/) |Medium|   |
 |0992|[Subarrays with K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/description/) |Hard|   |
 |0993|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/description/) |Easy|   |
@@ -1345,5 +1345,9 @@
 |1464|[Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/description/) |Easy|   |
 |1465|[Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/description/) |Medium|   |
 |1466|[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/description/) |Medium|   |
-|1467|[Probability of a Two Boxes Having The Same Number of Distinct Balls](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/description/) |Hard|   |
-|1469|[Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/description/) :lock:|Easy|   |
+|1467|[Probability of a Two Boxes Having The Same Number of Distinct Balls](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/description/) |Hard|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_1467.py) [CPP](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_1467.cpp)  |
+|1470|[Shuffle the Array](https://leetcode.com/problems/shuffle-the-array/description/) |Easy|   |
+|1471|[The k Strongest Values in an Array](https://leetcode.com/problems/the-k-strongest-values-in-an-array/description/) |Medium|   |
+|1472|[Design Browser History](https://leetcode.com/problems/design-browser-history/description/) |Medium|   |
+|1473|[Paint House III](https://leetcode.com/problems/paint-house-iii/description/) |Hard|   |
+|1469|[Find All The Lonely Nodes](https://leetcode.com/problems/find-all-the-lonely-nodes/description/) :lock:|Easy| [CPP](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_1469.cpp)  |
