@@ -25,7 +25,9 @@ TBD
 
 **Buffon’s Needle Problem** 一个几何概型问题. 以及采样的技巧.
 
+**组合数学常用公式** 总结组合数学常用公式
 
+- [ ] ToDo
 
 ## Design
 
@@ -90,8 +92,6 @@ TBD
 **Maximum Points in A Line** 给定一堆点, 判断同一条线上的点的最多数量 [参考](https://leetcode-cn.com/problems/max-points-on-a-line/)
 
 **Angular Sweep** (Maximum points that can be enclosed in a circle of given radius) 给定一堆点, 和一个圆的半径, 判断圆最多能覆盖多少个点 [参考](https://www.geeksforgeeks.org/angular-sweep-maximum-points-can-enclosed-circle-given-radius/)
-
-
 
 
 
