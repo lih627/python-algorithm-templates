@@ -27,7 +27,11 @@ TBD
 
 **组合数学常用公式** 总结组合数学常用公式
 
-- [ ] ToDo
+- [x] ToDo
+
+**@classmethod 多态** Effective Python 笔记
+
+
 
 ## Design
 
