@@ -103,6 +103,8 @@ TBD
 
 **Dijkstra** 最短路径算法 以及 堆优化版本
 
+**Kruskal** MST 图的最小生成树
+
 
 
 ## Search and Sort
