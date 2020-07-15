@@ -1,5 +1,5 @@
 # LeetCode Solutions
-> Until 2020-07-15 09:50:46, solved **446** / **1384** problems while **219** are still locked.
+> Until 2020-07-15 09:53:11, solved **447** / **1384** problems while **219** are still locked.
 
 ----------------
 | ID | Title | Difficulty | Solutions|
@@ -531,7 +531,7 @@
 |0560|[Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/description/) |Medium|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0560.py)   |
 |0561|[Array Partition I](https://leetcode.com/problems/array-partition-i/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0561.py)   |
 |0562|[Longest Line of Consecutive One in Matrix](https://leetcode.com/problems/longest-line-of-consecutive-one-in-matrix/description/) :lock:|Medium|   |
-|0563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/description/) |Easy|   |
+|0563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/description/) |Easy|[Python](https://github.com/lih627/python-algorithm-templates/tree/master/LeetCodeSolutions/LeetCode_0563.py)   |
 |0564|[Find the Closest Palindrome](https://leetcode.com/problems/find-the-closest-palindrome/description/) |Hard|   |
 |0565|[Array Nesting](https://leetcode.com/problems/array-nesting/description/) |Medium|   |
 |0566|[Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/) |Easy|   |
