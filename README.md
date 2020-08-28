@@ -1,7 +1,5 @@
 # Algorithm templates and LeetCode Solutions
 
-[toc]
-
 TBD
 
 - [x] Add multi binary search algorithm for leetcode0034
@@ -23,11 +21,11 @@ TBD
 
 - [ ] 还需要补充完善
 
-**Buffon’s Needle Problem** 一个几何概型问题. 以及采样的技巧.
+**Buffon’s Needle Problem** 一个几何概型问题，以及采样的技巧
 
 **组合数学常用公式** 总结组合数学常用公式
 
-- [x] ToDo
+**线性可分感知机及其对偶形式** 感知机建模，推导以及Gram矩阵优化
 
 **@classmethod 多态** Effective Python 笔记
 
@@ -63,7 +61,7 @@ TBD
 
 **Buffon’s Needle** 布丰问题/几何概型
 
-**Reservoir Sampling** 蓄水池抽样, 从流数据中等概率采集 k 个样本.
+**Reservoir Sampling** 蓄水池抽样, 从流数据中等概率采集 k 个样本
 
 
 
@@ -97,9 +95,7 @@ TBD
 
 **Angular Sweep** (Maximum points that can be enclosed in a circle of given radius) 给定一堆点, 和一个圆的半径, 判断圆最多能覆盖多少个点 [参考](https://www.geeksforgeeks.org/angular-sweep-maximum-points-can-enclosed-circle-given-radius/)
 
-
-
-# Graph
+## Graph
 
 **Dijkstra** 最短路径算法 以及 堆优化版本
 
@@ -133,8 +129,12 @@ TBD
 
 **LCS** 最长公共子序列
 
-**Longest Substring without Repeating Characters** 最长无重复字符子序列 滑动窗口法
+**Longest Substring without Repeating Characters** 最长无重复字符子序列滑动窗口法
 
+
+## 机器学习
+
+**precepton** 线性感知机对偶形式建模，优化，Gram计算
 
 
 ## LeetCode Solutions
@@ -146,8 +146,6 @@ TBD:
 - [x] LeetCode0010: memorize dp
 
 - [x] LeetCode0030
-
-
 
 See [LeetCodeList](https://github.com/lih627/python-algorithm-templates/blob/master/LeetCodeList.md).
 
