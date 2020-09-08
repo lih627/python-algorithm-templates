@@ -1,3 +1,6 @@
+import collections
+
+
 class Solution:
     def judgeCircle(self, moves: str) -> bool:
         counter = collections.Counter(moves)
