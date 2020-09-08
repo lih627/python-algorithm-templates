@@ -95,6 +95,8 @@ TBD
 
 **Angular Sweep** (Maximum points that can be enclosed in a circle of given radius) 给定一堆点, 和一个圆的半径, 判断圆最多能覆盖多少个点 [参考](https://www.geeksforgeeks.org/angular-sweep-maximum-points-can-enclosed-circle-given-radius/)
 
+**Rotated IoU** 计算旋转矩形框的面积
+
 ## Graph
 
 **Dijkstra** 最短路径算法 以及 堆优化版本
