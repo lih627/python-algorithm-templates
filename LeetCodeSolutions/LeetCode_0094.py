@@ -18,3 +18,20 @@ class Solution:
 
         _inorder(root)
         return res
+
+
+class Solution:
+    def inorderTraversal(self, root: TreeNode) -> List[int]:
+        stack = [[root, False]]
+        ret = []
+        while stack:
+            node, visited = stack.pop()
+            if not node:
+                continue
+            if not visited:
+                stack.append([node.right, False])
+                stack.append([node, True])
+                stack.append([node.left, False])
+            else:
+                ret.append(node.val)
+        return ret
