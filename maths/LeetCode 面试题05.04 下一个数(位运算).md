@@ -47,7 +47,7 @@ next: 0110
 prev: 0011
 ```
 
-可以通过一些循环的判定来解决，参照我写的[这片题解](https://leetcode-cn.com/problems/closed-number-lcci/solution/python-wei-yun-suan-mei-you-shi-yong-zi-fu-chuan-d/)
+可以通过一些循环的判定来解决，参照我写的[这篇题解](https://leetcode-cn.com/problems/closed-number-lcci/solution/python-wei-yun-suan-mei-you-shi-yong-zi-fu-chuan-d/)
 
 ```python
 class Solution:

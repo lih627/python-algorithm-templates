@@ -4,7 +4,7 @@
 
 ## 简介
 
-最近看 Effective Python 第四章元类及属性。其中经常出现`@property` 装饰器。因此总结一下。我理解`@property`的一个比较直观的好处是可以创建只读的属性，这样可以防止属性呗随意更改。
+最近看 Effective Python 第四章元类及属性。其中经常出现`@property` 装饰器。因此总结一下。我理解`@property`的一个比较直观的好处是可以创建只读的属性，这样可以防止属性被随意更改。
 
 ## Property 是 Built-in Functions
 
